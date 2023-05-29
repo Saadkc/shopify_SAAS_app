@@ -3,6 +3,7 @@ import { TitleBar } from "@shopify/app-bridge-react";
 
 export default function PageName() {
   return (
+    
     <Page>
       <TitleBar
         title="Page name"
@@ -48,5 +49,5 @@ export default function PageName() {
         </Layout.Section>
       </Layout>
     </Page>
-  );
+    );
 }
